@@ -1,3 +1,3 @@
 food_items = ["celery", "carrots", "spinach", "potatoes", "tomatoes", "milk"]
-list_comprehension = [item for item in food_items if item != "milk"]
-print(list_comprehension)
+
+print([(x,y) for x in range(10) for y in range(10) if x%2 == 0 and y%2 == 0])
